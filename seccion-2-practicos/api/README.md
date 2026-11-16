@@ -55,6 +55,14 @@ responden `401`.
 
 La API está desplegada en **AWS EC2** con Docker y conectada a **MongoDB Atlas**.
 
+**Instancia en AWS EC2**
+
+![Instancia de la API en AWS EC2](capturas/aws.png)
+
+**Base de datos en MongoDB Atlas**
+
+![Colección de tareas en MongoDB Atlas](capturas/mongodb.png)
+
 ## Estructura
 
 ```
