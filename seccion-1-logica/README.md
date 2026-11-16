@@ -1,5 +1,13 @@
 # SECCIÓN 1: EJERCICIOS LÓGICO - MATEMÁTICO
 
+## Tecnologías utilizadas
+
+**Python:** elegí Python para resolver los ejercicios porque es uno de los lenguajes que mejor manejo, su sintaxis es sencilla y legible y con esto me enfoque en la lógica de cada problema y que el código sea fácil de revisar.
+
+**SQLite:** para el ejercicio 5 utilicé SQLite porque solo se necesitaba ejecutar una consulta rápida sobre unas pocas tablas. No hacía falta una base de datos robusta con servidor (como MySQL o PostgreSQL) y aparte SQLite viene incluido en Python, no requiere instalación ni configuración, y toda la base queda en un solo archivo (`biblioteca.db`), así que cualquiera puede ejecutar el ejercicio sin preparar otra cosa extra.
+
+---
+
 Solucion a los cinco ejercicios
 Cada sección explica un poco de qué trata el ejercicio, en qué archivo está la solución y muestra la captura de la prueba.
 
