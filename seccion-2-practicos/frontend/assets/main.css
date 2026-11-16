@@ -1,0 +1,44 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.task-card {
+  transition: box-shadow 0.15s ease;
+}
+.task-card:hover {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08);
+}
+.task-card.is-done .task-title {
+  text-decoration: line-through;
+  color: var(--bs-secondary-color);
+}
+.task-check {
+  width: 1.4rem;
+  height: 1.4rem;
+  cursor: pointer;
+}
+.text-break-all {
+  overflow-wrap: anywhere;
+}
+
+/* Miniatura de imagen adjunta */
+.task-thumb {
+  display: block;
+  width: 120px;
+  height: 80px;
+  background-color: var(--bs-light);
+}
+.task-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+.task-thumb:hover img {
+  transform: scale(1.05);
+}
+/* Imagen ampliada (sweetalert2): que no se salga de la pantalla */
+.swal2-image {
+  max-height: 75vh;
+  object-fit: contain;
+}
